@@ -1,0 +1,20 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<update xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Employee_Status_Form__c</type>
+				<Id xmlns=""></Id>
+				<Vendor_Name__c xmlns=""></Vendor_Name__c>
+				<Vendor_ID__c xmlns=""></Vendor_ID__c>
+				<Employment_Type__c xmlns=""></Employment_Type__c>
+				<Position_Type__c xmlns=""></Position_Type__c>
+			</sObjects>
+		</update>
+	</Body>
+</Envelope>

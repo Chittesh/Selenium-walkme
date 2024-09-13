@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">OpportunityTeamMember</type>
+            <OpportunityId xmlns=""></OpportunityId>
+            <UserId xmlns=""></UserId>
+            <TeamMemberRole xmlns=""></TeamMemberRole>
+         </sObjects>
+      </create>
+   </Body>
+</Envelope>

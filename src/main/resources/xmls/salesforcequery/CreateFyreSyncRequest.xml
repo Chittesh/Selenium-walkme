@@ -1,0 +1,69 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+	       
+	            <type xmlns="urn:sobject.partner.soap.sforce.com">FyreSync__Requisition__c</type>
+	             <FyreSync__Account__c xmlns=""></FyreSync__Account__c>
+	             <FyreSync__ReqDetails_AddressLine1__c xmlns=""></FyreSync__ReqDetails_AddressLine1__c>
+	             <FyreSync__ReqDetails_AddressLine2__c xmlns=""></FyreSync__ReqDetails_AddressLine2__c>
+	             <FyreSync__ReqDetails_AvailableOpenings__c xmlns="">2</FyreSync__ReqDetails_AvailableOpenings__c>
+	             <FyreSync__Rates_BillRateMax__c xmlns="">110</FyreSync__Rates_BillRateMax__c>
+	             <FyreSync__Rates_BillRateMin__c xmlns="">100</FyreSync__Rates_BillRateMin__c>
+	             <FyreSync__ReqDetails_Category__c xmlns=""></FyreSync__ReqDetails_Category__c>
+	             <FyreSync__ReqDetails_City__c xmlns=""></FyreSync__ReqDetails_City__c>
+	             <FyreSync__ReqDetails_Comments__c xmlns="">Req details Comments 1</FyreSync__ReqDetails_Comments__c>
+	             <FyreSync__BuyerDetails_Company__c xmlns=""></FyreSync__BuyerDetails_Company__c>
+<!-- 	             <FyreSync__BuyerDetails_CoordinatorFirst12__c xmlns="">First V1</FyreSync__BuyerDetails_CoordinatorFirst12__c> -->
+<!-- 	             <FyreSync__BuyerDetails_CoordinatorLast12__c xmlns="">Last 12V1</FyreSync__BuyerDetails_CoordinatorLast12__c> -->
+	             <FyreSync__ReqDetails_CountryCode__c xmlns="">USA</FyreSync__ReqDetails_CountryCode__c>
+	             <FyreSync__CredentialId__c xmlns="">CredId</FyreSync__CredentialId__c>
+	             <FyreSync__Rates_Currency__c xmlns="">USD</FyreSync__Rates_Currency__c>
+	             <FyreSync__BuyerDetails_Department__c xmlns=""></FyreSync__BuyerDetails_Department__c>
+	             <FyreSync__ReqDetails_Description__c xmlns="">Sr Apttus Developer will design code and maintain highly scalable and robust enterprise applications using lightening Framework Apex web components.</FyreSync__ReqDetails_Description__c>
+	             <FyreSync__ReqDetails_DescriptionHtml__c xmlns="">Sr Apttus Developer will design, code, and maintain highly scalable and robust enterprise applications using lightening Framework, Apex ,web components</FyreSync__ReqDetails_DescriptionHtml__c>
+	             <FyreSync__ReqDetails_Duration__c xmlns="">2</FyreSync__ReqDetails_Duration__c>
+	             <FyreSync__ReqDetails_Education__c xmlns="">PG</FyreSync__ReqDetails_Education__c>
+	             <Name xmlns=""></Name>
+	             <FyreSync__ReqDetails_Hours__c xmlns="">12</FyreSync__ReqDetails_Hours__c>
+	             <FyreSync__ReqDetails_Location__c xmlns=""></FyreSync__ReqDetails_Location__c>
+	             <FyreSync__AdditionalDetails_MedBackground__c xmlns="">MedBackground</FyreSync__AdditionalDetails_MedBackground__c>
+	             <FyreSync__AdditionalDetails_MedCertification__c xmlns="">MedCert</FyreSync__AdditionalDetails_MedCertification__c>
+	             <FyreSync__AdditionalDetails_MedDivision__c xmlns="">MedDivision</FyreSync__AdditionalDetails_MedDivision__c>
+	             <FyreSync__AdditionalDetails_MedFunction__c xmlns="">MedFunction</FyreSync__AdditionalDetails_MedFunction__c>
+	             <FyreSync__Rates_PayRateMax__c xmlns="">90</FyreSync__Rates_PayRateMax__c>
+	             <FyreSync__Rates_PayRateMin__c xmlns="">85</FyreSync__Rates_PayRateMin__c>
+	             <FyreSync__ReqDetails_PositionType__c xmlns="">Contract</FyreSync__ReqDetails_PositionType__c>
+	             <FyreSync__ReqDetails_PostalCode__c xmlns=""></FyreSync__ReqDetails_PostalCode__c>
+	             <FyreSync__ReqDetails_Reason__c xmlns="">ManuallyAdded</FyreSync__ReqDetails_Reason__c>
+	             <FyreSync__AdditionalDetails_ShiftDays__c xmlns="">TRUE</FyreSync__AdditionalDetails_ShiftDays__c>
+	             <FyreSync__AdditionalDetails_ShiftEvenings__c xmlns="">FALSE</FyreSync__AdditionalDetails_ShiftEvenings__c>
+	             <FyreSync__AdditionalDetails_ShiftHours__c xmlns="">8</FyreSync__AdditionalDetails_ShiftHours__c>
+	             <FyreSync__AdditionalDetails_ShiftNights__c xmlns="">FALSE</FyreSync__AdditionalDetails_ShiftNights__c>
+	             <FyreSync__AdditionalDetails_ShiftVariable__c xmlns="">TRUE</FyreSync__AdditionalDetails_ShiftVariable__c>
+	             <FyreSync__ReqDetails_Skills__c xmlns=""></FyreSync__ReqDetails_Skills__c>
+	             <FyreSync__ReqDetails_StartDate__c xmlns=""></FyreSync__ReqDetails_StartDate__c>
+	             <FyreSync__ReqDetails_State__c xmlns=""></FyreSync__ReqDetails_State__c>
+	             <FyreSync__Status__c xmlns="">Active</FyreSync__Status__c>
+	             <FyreSync__submittalMax__c xmlns="">10</FyreSync__submittalMax__c>
+	             <FyreSync__BuyerDetails_SupervisorFirstName__c xmlns="">SFN</FyreSync__BuyerDetails_SupervisorFirstName__c>
+	             <FyreSync__BuyerDetails_SupervisorLastName__c xmlns="">SLN</FyreSync__BuyerDetails_SupervisorLastName__c>
+	             <FyreSync__Rates_TargetBillRate__c xmlns="">120</FyreSync__Rates_TargetBillRate__c>
+	             <FyreSync__Rates_TargetPayRate__c xmlns="">130</FyreSync__Rates_TargetPayRate__c>
+	             <FyreSync__Rates_TaxStatus__c xmlns="">Pending</FyreSync__Rates_TaxStatus__c>
+	             <FyreSync__ReqDetails_Title__c xmlns=""></FyreSync__ReqDetails_Title__c>
+	             <FyreSync__ReqDetails_TotalOpenings__c xmlns="">5</FyreSync__ReqDetails_TotalOpenings__c>
+	             <FyreSync__VmsType__c xmlns="">fieldglass</FyreSync__VmsType__c>
+	             <FyreSync__ReqDetails_WorkDays__c xmlns="">WorkDay</FyreSync__ReqDetails_WorkDays__c>
+	             <FyreSync__ReqDetails_LocationCoordinates__Latitude__s xmlns=""></FyreSync__ReqDetails_LocationCoordinates__Latitude__s> 
+ 	             <FyreSync__ReqDetails_LocationCoordinates__Longitude__s xmlns=""></FyreSync__ReqDetails_LocationCoordinates__Longitude__s> 
+	            
+	         </sObjects>
+      </create>
+   </Body>
+</Envelope>

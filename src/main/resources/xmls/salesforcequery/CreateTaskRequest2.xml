@@ -1,0 +1,23 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Task</type>
+            <WhatId xmlns=""></WhatId>
+            <WhoId xmlns=""></WhoId>
+            <Subject xmlns=""></Subject>
+            <Status xmlns=""></Status>
+            <Type xmlns=""></Type>
+            <Priority xmlns=""></Priority>
+            <ActivityDate xmlns=""></ActivityDate>
+            <Description xmlns=""></Description>
+            <OwnerId xmlns=""></OwnerId>
+          </sObjects>
+      </create>
+   </Body>
+</Envelope>

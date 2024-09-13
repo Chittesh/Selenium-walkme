@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+
+	xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<update xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Opportunity</type>
+				<Id xmlns=""></Id>
+				<!-- <Req_Job_Description__c xmlns=""></Req_Job_Description__c> -->
+				
+            <StageName xmlns=""></StageName>
+            <Req_Job_Description__c xmlns=""></Req_Job_Description__c>
+            <Req_Job_Level__c xmlns=""></Req_Job_Level__c>
+			<Req_External_Job_Description__c xmlns=""></Req_External_Job_Description__c>
+			<EnterpriseReqSkills__c xmlns=""></EnterpriseReqSkills__c>>
+			<Req_Nice_to_Have_Skills__c xmlns=""></Req_Nice_to_Have_Skills__c>
+			<Req_Qualification__c xmlns=""></Req_Qualification__c>
+			<Req_Grade__c xmlns=""></Req_Grade__c> 
+            <Req_Duration__c xmlns=""></Req_Duration__c>
+            <Req_Duration_Unit__c xmlns=""></Req_Duration_Unit__c>
+            <Req_Bill_Rate_Max__c xmlns=""></Req_Bill_Rate_Max__c>
+			<Req_Bill_Rate_Min__c xmlns=""></Req_Bill_Rate_Min__c>
+			<Req_Pay_Rate_Max__c xmlns=""></Req_Pay_Rate_Max__c>
+			<Req_Pay_Rate_Min__c xmlns=""></Req_Pay_Rate_Min__c>
+			<Req_Standard_Burden__c xmlns=""></Req_Standard_Burden__c>
+			<Req_Fee_Percent__c xmlns=""></Req_Fee_Percent__c>
+			<Req_Flat_Fee__c xmlns=""></Req_Flat_Fee__c>	
+			<Req_Salary_Max__c xmlns=""></Req_Salary_Max__c>
+			<Req_Salary_Min__c xmlns=""></Req_Salary_Min__c>
+			<Req_Rate_Frequency__c xmlns=""></Req_Rate_Frequency__c>
+			<inside_IR35__c xmlns=""></inside_IR35__c>
+			 
+				
+			</sObjects>
+		</update>
+	</Body>
+</Envelope>
+
+
+	

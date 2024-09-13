@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Contact</type>
+            <FirstName xmlns=""></FirstName>
+            <LastName xmlns="" />
+            <MailingStreet xmlns=""></MailingStreet>
+            <MailingCity xmlns=""></MailingCity>
+            <MailingState xmlns=""></MailingState>
+            <MailingPostalCode xmlns=""></MailingPostalCode>
+            <MailingCountry xmlns=""></MailingCountry>
+            <Talent_Country_Text__c xmlns=""></Talent_Country_Text__c>
+            <MailingLatitude xmlns=""></MailingLatitude>
+            <MailingLongitude xmlns=""></MailingLongitude>
+            <MobilePhone xmlns=""></MobilePhone>
+            <OtherPhone xmlns=""></OtherPhone>
+            <Phone xmlns=""></Phone>
+            <HomePhone xmlns=""></HomePhone>
+            <Email xmlns=""></Email>
+            <Other_Email__c xmlns=""></Other_Email__c>
+            <Work_Email__c xmlns=""></Work_Email__c>
+            <LinkedIn_URL__c xmlns=""></LinkedIn_URL__c>
+            <Title xmlns=""></Title>
+            <Preferred_Name__c xmlns=""></Preferred_Name__c>
+            <Website_URL__c xmlns=""></Website_URL__c>
+            <Preferred_Email__c xmlns=""></Preferred_Email__c>
+            <Preferred_Phone__c xmlns=""></Preferred_Phone__c>
+            <Salutation xmlns=""></Salutation>
+            <Suffix xmlns=""></Suffix>
+            <AccountId xmlns=""></AccountId>
+            <RecordTypeId xmlns=""></RecordTypeId>
+            <Peoplesoft_ID__c xmlns=""></Peoplesoft_ID__c>
+         </sObjects>
+      </create>
+   </Body>
+</Envelope>

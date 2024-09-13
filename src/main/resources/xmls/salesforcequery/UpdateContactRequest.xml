@@ -1,0 +1,33 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <update xmlns="urn:partner.soap.sforce.com">
+          <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Contact</type>
+            <Id xmlns=""></Id>
+            <PrefCentre_Aerotek_OptOut_Email__c xmlns="">NA</PrefCentre_Aerotek_OptOut_Email__c>
+            <PrefCentre_Aerotek_OptOut_Mobile__c xmlns="">NA</PrefCentre_Aerotek_OptOut_Mobile__c>
+            <PrefCentre_AGS_OptOut_Email__c xmlns="">NA</PrefCentre_AGS_OptOut_Email__c>
+            <PrefCentre_AGS_OptOut_Mobile__c xmlns="">NA</PrefCentre_AGS_OptOut_Mobile__c>
+            <PrefCentre_AllegisPartners_OptOut_Email__c xmlns="">NA</PrefCentre_AllegisPartners_OptOut_Email__c>
+            <PrefCentre_AllegisPartners_OptOut_Mobile__c xmlns="">NA</PrefCentre_AllegisPartners_OptOut_Mobile__c>
+            <PrefCentre_Allegis_OptOut_Email__c xmlns="">NA</PrefCentre_Allegis_OptOut_Email__c>
+            <PrefCentre_Allegis_OptOut_Mobile__c xmlns="">NA</PrefCentre_Allegis_OptOut_Mobile__c>
+            <PrefCentre_AstonCarter_OptOut_Email__c xmlns="">NA</PrefCentre_AstonCarter_OptOut_Email__c>
+            <PrefCentre_AstonCarter_OptOut_Mobile__c xmlns="">NA</PrefCentre_AstonCarter_OptOut_Mobile__c>
+            <PrefCentre_EASi_OptOut_Email__c xmlns="">NA</PrefCentre_EASi_OptOut_Email__c>
+            <PrefCentre_EASi_OptOut_Mobile__c xmlns="">NA</PrefCentre_EASi_OptOut_Mobile__c>
+            <PrefCentre_MLA_OptOut_Email__c xmlns="">NA</PrefCentre_MLA_OptOut_Email__c>
+            <PrefCentre_MLA_OptOut_Mobile__c xmlns="">NA</PrefCentre_MLA_OptOut_Mobile__c>
+            <PrefCentre_TEKsystems_OptOut_Email__c xmlns="">NA</PrefCentre_TEKsystems_OptOut_Email__c>
+            <PrefCentre_TEKsystems_OptOut_Mobile__c xmlns="">NA</PrefCentre_TEKsystems_OptOut_Mobile__c> 
+            <PrefCentre_TGS_OptOut_Email__c xmlns="">NA</PrefCentre_TGS_OptOut_Email__c>
+            <PrefCentre_TGS_OptOut_Mobile__c xmlns="">NA</PrefCentre_TGS_OptOut_Mobile__c>    
+          </sObjects>
+      </update>
+   </Body>
+</Envelope>

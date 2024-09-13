@@ -1,0 +1,16 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <update xmlns="urn:partner.soap.sforce.com">
+          <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Contact</type>
+            <Id xmlns=""></Id>
+            <MDM_ID__c xmlns=""></MDM_ID__c>
+          </sObjects>
+      </update>
+   </Body>
+</Envelope>

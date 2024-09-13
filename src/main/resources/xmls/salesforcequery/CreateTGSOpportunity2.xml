@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+<Header>
+ <SessionHeader xmlns="urn:partner.soap.sforce.com">
+  <sessionId></sessionId>
+ </SessionHeader>
+</Header>
+<Body>
+ <create xmlns="urn:partner.soap.sforce.com">
+  <sObjects>
+
+   <type xmlns="urn:sobject.partner.soap.sforce.com">Opportunity</type>
+   <Name xmlns="">TestTGSOpportunity</Name>
+   <CloseDate xmlns=""></CloseDate>
+   <AccountId xmlns=""></AccountId>
+   <StageName xmlns=""></StageName>
+   <RecordTypeId xmlns=""></RecordTypeId>
+   <Segment__c xmlns=""></Segment__c>
+   <Organization_Office__c  xmlns=""></Organization_Office__c>
+   <Sales_Organization__c xmlns=""></Sales_Organization__c>
+   <Practice_Engagement__c xmlns=""></Practice_Engagement__c>
+   <Aligned_SE__c xmlns=""></Aligned_SE__c>
+   <Primary_Service_Type__c xmlns=""></Primary_Service_Type__c>
+   <DeliveryModel__c  xmlns=""></DeliveryModel__c>
+   <Client_Relationship__c xmlns=""></Client_Relationship__c>
+   <Global_Services_Opportunity_Type__c xmlns=""></Global_Services_Opportunity_Type__c>
+   <Response_Type__c xmlns=""></Response_Type__c>
+   <Product_Division__c xmlns=""></Product_Division__c>
+   <Vertical__c xmlns=""></Vertical__c>
+   <Channel_Partners__c xmlns=""></Channel_Partners__c>
+   <Location__c  xmlns=""></Location__c>
+   <Description_of_Work__c xmlns=""></Description_of_Work__c>
+   <Project_Length_Duration_Weeks__c xmlns=""></Project_Length_Duration_Weeks__c>
+   <Pricing_Billing_Type__c xmlns=""></Pricing_Billing_Type__c>
+   <ContractType__c xmlns=""></ContractType__c>
+   <Past_Performance__c xmlns=""></Past_Performance__c>
+   <Economic_Buyer_Name__c xmlns=""></Economic_Buyer_Name__c>
+   <Met_with_Economic_Buyer__c xmlns=""></Met_with_Economic_Buyer__c>
+   <IT_Sponsor_Name__c xmlns=""></IT_Sponsor_Name__c>
+   <Met_with_IT_Sponsor__c xmlns=""></Met_with_IT_Sponsor__c>
+   <Business_Sponsor_Name__c  xmlns=""></Business_Sponsor_Name__c>
+   <Met_with_Business_Sponsor__c xmlns=""></Met_with_Business_Sponsor__c>
+   <Procurement_Name__c xmlns=""></Procurement_Name__c>
+   <Met_with_Procurement__c xmlns=""></Met_with_Procurement__c>
+   <Is_credit_approved__c xmlns=""></Is_credit_approved__c>
+   <NextStep xmlns=""></NextStep>
+   <Deal_Owner__c xmlns=""></Deal_Owner__c>
+   <Regional_Director__c xmlns=""></Regional_Director__c>
+   </sObjects>
+ </create>
+</Body>
+</Envelope>

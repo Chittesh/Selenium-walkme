@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+
+
+
+	xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+
+
+
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<create xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+
+
+
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Opportunity</type>
+				<Name xmlns="">test</Name>
+				<AccountId xmlns=""></AccountId>
+				<RecordTypeId xmlns=""></RecordTypeId>
+				<Global_Account_Name__c xmlns=""></Global_Account_Name__c>
+				<Currency__c xmlns=""></Currency__c>
+				<Req_Hiring_Manager__c xmlns=""></Req_Hiring_Manager__c>
+				<CloseDate xmlns=""></CloseDate>
+				<Req_Job_Title__c xmlns=""></Req_Job_Title__c>
+				<Req_Product__c xmlsns=""></Req_Product__c>
+				<Req_Terms_of_engagement__c xmlns=""></Req_Terms_of_engagement__c>
+				<Req_Worksite_City__c xmlns=""></Req_Worksite_City__c>
+				<Req_Worksite_Country__c xmlsns=""></Req_Worksite_Country__c>
+				<Req_Worksite_State__c xmlns=""></Req_Worksite_State__c>
+				<Req_Worksite_Street__c xmlns=""></Req_Worksite_Street__c>
+				<Req_Worksite_Postal_Code__c xmlns=""></Req_Worksite_Postal_Code__c>
+				<Req_Additional_Information__c
+					xmlns=""></Req_Additional_Information__c>
+				<Req_Qualification__c xmlns=""></Req_Qualification__c>
+				<Req_Business_Challenge__c xmlns=""></Req_Business_Challenge__c>
+				<Req_Client_working_on_Req__c xmlns=""></Req_Client_working_on_Req__c>
+				<Req_Competition_Info__c xmlns=""></Req_Competition_Info__c>
+				<Req_Compliance__c xmlns=""></Req_Compliance__c>
+				<Req_Job_Description__c xmlns=""></Req_Job_Description__c>
+				<Req_Division__c xmlns=""></Req_Division__c>
+				<Req_Grade__c xmlns=""></Req_Grade__c>
+				<Req_Top_Skills__c xmlns=""></Req_Top_Skills__c>
+				<Req_EVP__c xmlns=""></Req_EVP__c>
+				<Req_Interview_Date__c xmlns=""></Req_Interview_Date__c>
+				<Req_Job_Level__c xmlns=""></Req_Job_Level__c>
+				<Req_External_Job_Description__c
+					xmlns=""></Req_External_Job_Description__c>
+				<Immediate_Start__c xmlns=""></Immediate_Start__c>
+				<Req_Government__c xmlns=""></Req_Government__c>
+				<Req_Impact_to_Internal_External_Customer__c
+					xmlns=""></Req_Impact_to_Internal_External_Customer__c>
+				<Req_Interview_Information__c xmlns=""></Req_Interview_Information__c>
+				<Req_Minimum_Education_Required__c
+					xmlns=""></Req_Minimum_Education_Required__c>
+				<OpCo__c xmlns=""></OpCo__c>
+				<Req_Payroll__c xmlns=""></Req_Payroll__c>
+				<Req_Approval_Process__c xmlns=""></Req_Approval_Process__c>
+				<Req_Security_Clearancy_Required__c
+					xmlns=""></Req_Security_Clearancy_Required__c>
+				<EnterpriseReqSkills__c xmlns=""></EnterpriseReqSkills__c>
+				<Req_Skill_Details__c xmlns=""></Req_Skill_Details__c>
+				<Req_Internal_External_Customer__c
+					xmlns=""></Req_Internal_External_Customer__c>
+				<Req_Work_Environment__c xmlns=""></Req_Work_Environment__c>
+				<Req_Work_Remote__c xmlns=""></Req_Work_Remote__c>
+				<Organization_Office__c xmlns=""></Organization_Office__c>
+				<StageName xmlns=""></StageName>
+				<Req_Total_Positions__c xmlns=""></Req_Total_Positions__c>
+				<Req_Date_Client_Opened_Position__c
+					xmlns=""></Req_Date_Client_Opened_Position__c>
+
+
+
+				<Start_Date__c xmlns=""></Start_Date__c>
+				<Req_Duration__c xmlns=""></Req_Duration__c>
+				<Req_Duration_Unit__c xmlns=""></Req_Duration_Unit__c>
+				<Req_Rate_Frequency__c xmlns=""></Req_Rate_Frequency__c>
+				<Req_Bill_Rate_Max__c xmlns=""></Req_Bill_Rate_Max__c>
+				<Req_Bill_Rate_Min__c xmlns=""></Req_Bill_Rate_Min__c>
+				<Req_Pay_Rate_Max__c xmlns=""></Req_Pay_Rate_Max__c>
+				<Req_Pay_Rate_Min__c xmlns=""></Req_Pay_Rate_Min__c>
+				<Req_Standard_Burden__c xmlns=""></Req_Standard_Burden__c>
+				<Req_Salary_Min__c xmlns=""></Req_Salary_Min__c>
+				<Req_End_Client__c xmlns=""></Req_End_Client__c>
+				<Req_Salary_Max__c xmlns=""></Req_Salary_Max__c>
+				<Retainer_Fee__c xmlns=""></Retainer_Fee__c>
+				<Req_Other_Compensations__c xmlns=""></Req_Other_Compensations__c>
+				<Req_Flat_Fee__c xmlns=""></Req_Flat_Fee__c>
+				<Req_Fee_Percent__c xmlns=""></Req_Fee_Percent__c>
+				<Req_Bonus__c xmlns=""></Req_Bonus__c>
+				<inside_IR35__c xmlns=""></inside_IR35__c>
+	<Req_TGS_Requirement__c xmlns=""></Req_TGS_Requirement__c>
+	<Req_Skill_Specialty__c xmlns=""></Req_Skill_Specialty__c>
+<Functional_Non_Functional__c xmlns=""></Functional_Non_Functional__c>
+<Skill_Set__c xmlns=""></Skill_Set__c>
+
+
+			</sObjects>
+		</create>
+	</Body>
+</Envelope>
+
+
+	

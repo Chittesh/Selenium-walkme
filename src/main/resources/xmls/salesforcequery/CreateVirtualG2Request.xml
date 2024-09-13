@@ -1,0 +1,35 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<create xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Virtual_G2_c</type>
+				<Availability__c xmlns=""></Availability__c>
+				<Communication_Preferences__c xmlns=""></Communication_Preferences__c>
+				<CreatedById xmlns=""></CreatedById>
+				<CreatedDate xmlns=""></CreatedDate>
+				<Ecv_Id__c xmlns=""></Ecv_Id__c>
+				<Education__c xmlns=""></Education__c>
+				<High_School_Diploma__c xmlns=""></High_School_Diploma__c>
+				<Hourly_Rate__c xmlns=""></Hourly_Rate__c>
+				<Id xmlns=""></Id>
+				<IsDeleted xmlns=""></IsDeleted>
+				<Job_PostingLastActivityDatec xmlns=""></Job_PostingLastActivityDatec>
+				<LastActivityDate xmlns=""></LastActivityDate>
+				<Name xmlns=""></Name>
+				<LastModifiedDate xmlns=""></LastModifiedDate>
+				<Onsite_Preference__c xmlns=""></Onsite_Preference__c>
+				<OwnerId xmlns=""></OwnerId>
+				<Shift__c xmlns=""></Shift__c>
+				<Skills__c xmlns=""></Skills__c>
+				<SystemModstamp xmlns=""></SystemModstamp>
+				<Word_Per_Minute__c xmlns=""></Word_Per_Minute__c>
+				<Work_Experience__c xmlns=""></Work_Experience__c>
+			</sObjects>
+		</create>
+	</Body>
+</Envelope>

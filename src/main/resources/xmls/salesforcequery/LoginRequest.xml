@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <login xmlns="urn:partner.soap.sforce.com">
+      <username></username>
+      <password></password>
+    </login>
+  </Body>
+</Envelope>

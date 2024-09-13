@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods" thread-count="1">
+
+	<parameter name="runLocation" value="local" />
+
+
+	<test name="verifyEsfE2EWorkFlow">
+		<parameter name="role" value="TEK_SD1_LOAD" />
+		<classes>
+			<class name="com.salesforce.esf.ESFWorkFlowTest">
+				<methods>
+					<include name="verifyEsfE2EWorkFlow" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="com.salesforce.ats.home.HomePageValiadationTest"
+		parallel="methods" thread-count="3">
+		<parameter name="role" value="TEK_SD_TEST" />
+		<classes>
+			<class name="com.salesforce.ats.home.HomePageValiadationTest">
+				<methods>
+					<include name="verifyJobTitleNavigationFomReq" />
+					<include name="verifyTalentNameNavigationFromSubmittal" />
+					<include name="verifyViewReportCountOnMyCurrent" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="com.salesforce.ats.home.verifyAddTaskFromMyCurrentTalent">
+		<parameter name="role" value="TEK_SD1_LOAD" />
+		<classes>
+			<class name="com.salesforce.ats.home.HomePageValiadationTest">
+				<methods>
+					<include name="verifyAddTaskFromMyCurrentTalent" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+
+
+
+	<test name="ReqOpportunityTest">
+		<parameter name="role" value="TEK_SD1_LOAD" />
+		<classes>
+			<class name="com.salesforce.crm.ReqOpportunityTest" />
+		</classes>
+	</test>
+	<test name="TalentContactTest">
+		<parameter name="role" value="TEK_SD1_LOAD" />
+		<parameter name="runLocation" value="local" />
+		<classes>
+			<class name="com.salesforce.ats.TalentContactTest" />
+		</classes>
+	</test>
+
+
+
+
+	<test name="verifyDivisionDetailsAPIResponse">
+		<classes>
+			<class name="com.salesforce.esf.EsfDivisionAPITest">
+				<methods>
+					<include name="verifyDivisionDetailsAPIResponse" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+
+</suite> 

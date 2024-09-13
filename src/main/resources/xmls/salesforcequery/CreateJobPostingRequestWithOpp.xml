@@ -1,0 +1,44 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<create xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Job_Posting__c</type>
+				<Opportunity__c xmlns=""></Opportunity__c>
+				<Private_Flag__c xmlns=""></Private_Flag__c>
+				<Additional_Skills_Qualifications__c xmlns=""></Additional_Skills_Qualifications__c>
+				<Allegis_Employment_Type__c xmlns=""></Allegis_Employment_Type__c>
+				<City__c xmlns=""></City__c>
+				<Country__c xmlns=""></Country__c>
+				<Currency_Code__c xmlns=""></Currency_Code__c>
+				<Currency__c xmlns=""></Currency__c>
+				<Delete_Retry_Flag__c xmlns=""></Delete_Retry_Flag__c>
+				<eQuest_Job_Id__c xmlns=""></eQuest_Job_Id__c>
+				<Industry_Code__c xmlns=""></Industry_Code__c>
+				<Industry_Sector__c xmlns=""></Industry_Sector__c>
+				<Is_Active__c xmlns=""></Is_Active__c>
+				<Job_Category__c xmlns=""></Job_Category__c>
+				<Job_Title__c xmlns=""></Job_Title__c>
+				<Next_Schedule_Flag__c xmlns=""></Next_Schedule_Flag__c>
+				<OFCCP_Flag__c xmlns=""></OFCCP_Flag__c>
+				<opco__c xmlns=""></opco__c>
+				<OwnerId xmlns=""></OwnerId>
+				<Posting_Source__c xmlns=""></Posting_Source__c>
+				<Salary_Benefits__c xmlns=""></Salary_Benefits__c>
+				<Salary_Frequency__c xmlns=""></Salary_Frequency__c>
+				<Salary_max__c xmlns=""></Salary_max__c>
+				<Salary_min__c xmlns=""></Salary_min__c>
+				<ONET_Codes__c xmlns=""></ONET_Codes__c>
+				<Warning_Flag__c xmlns=""></Warning_Flag__c>
+				<State__c xmlns=""></State__c>
+				<Posting_Status__c xmlns=""></Posting_Status__c>
+				<External_Job_Description__c xmlns=""></External_Job_Description__c>
+			</sObjects>
+		</create>
+	</Body>
+</Envelope>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Contact</type>
+            <FirstName xmlns=""></FirstName>
+            <LastName xmlns="" />
+            <Title xmlns=""></Title>
+            <MailingStreet xmlns=""></MailingStreet>
+            <MailingCity xmlns=""></MailingCity>
+            <MailingState xmlns=""></MailingState>
+             <MailingCountry xmlns=""></MailingCountry>
+            <MailingPostalCode xmlns=""></MailingPostalCode>
+           <Talent_Country_Text__c xmlns=""></Talent_Country_Text__c>
+            <Email xmlns=""></Email>
+            <MobilePhone xmlns=""></MobilePhone>
+            <AccountId xmlns=""></AccountId>
+            <RecordTypeId xmlns=""></RecordTypeId>
+            <MailingLatitude xmlns=""></MailingLatitude>
+            <MailingLongitude xmlns=""></MailingLongitude>
+         </sObjects>
+      </create>
+   </Body>
+</Envelope>

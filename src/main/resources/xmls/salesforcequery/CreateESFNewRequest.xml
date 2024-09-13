@@ -1,0 +1,47 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+	       
+	            <type xmlns="urn:sobject.partner.soap.sforce.com">Employee_Status_Form__c</type>
+	            <Account_Name__c xmlns=""></Account_Name__c>
+				<Client_Job_Title__c xmlns=""></Client_Job_Title__c>
+				<Confirm_Primary_E_mail__c xmlns=""></Confirm_Primary_E_mail__c>
+				<Confirm_Primary_Phone_Number__c xmlns=""></Confirm_Primary_Phone_Number__c>
+				<Currency__c xmlns=""></Currency__c>
+				<First_Name_Legal__c xmlns=""></First_Name_Legal__c>
+				<Last_Name_Legal__c xmlns=""></Last_Name_Legal__c>
+				<OpCO__c xmlns=""></OpCO__c>
+				<RecordTypeId xmlns=""></RecordTypeId>
+				<Remote_Worker__c xmlns=""></Remote_Worker__c>
+				<REQ_Opportunity_Name__c xmlns=""></REQ_Opportunity_Name__c>
+				<Stage__c xmlns=""></Stage__c>
+				<Submittal__c xmlns=""></Submittal__c>
+				<Talent_Home_City__c xmlns=""></Talent_Home_City__c>
+				<Talent_Home_Country__c xmlns=""></Talent_Home_Country__c>
+				<Talent_Home_Postal_Code__c xmlns=""></Talent_Home_Postal_Code__c>
+				<Talent_Home_State__c xmlns=""></Talent_Home_State__c>
+				<Talent_Home_Street__c xmlns=""></Talent_Home_Street__c>
+				<Talent_ID__c xmlns=""></Talent_ID__c>
+				<Talent_Name__c xmlns=""></Talent_Name__c>
+				<Total_Burden__c xmlns=""></Total_Burden__c>
+				<Worksite_City__c xmlns=""></Worksite_City__c>
+				<Worksite_Contact_E_mail__c xmlns=""></Worksite_Contact_E_mail__c>
+				<Worksite_Contact_Name__c xmlns=""></Worksite_Contact_Name__c>
+				<Worksite_Contact_Phone__c xmlns=""></Worksite_Contact_Phone__c>
+				<Worksite_Contact_Title__c xmlns=""></Worksite_Contact_Title__c>
+				<Worksite_Country__c xmlns=""></Worksite_Country__c>
+				<Worksite_Postal_Code__c xmlns=""></Worksite_Postal_Code__c>
+				<Worksite_State_picklist__c xmlns=""></Worksite_State_picklist__c>
+				<Worksite_Street_2__c xmlns=""></Worksite_Street_2__c>
+				<Worksite_Street__c xmlns=""></Worksite_Street__c>
+	             
+	         </sObjects>
+      </create>
+   </Body>
+</Envelope>

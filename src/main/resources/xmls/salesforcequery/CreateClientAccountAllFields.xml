@@ -1,0 +1,48 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+	       
+	            <type xmlns="urn:sobject.partner.soap.sforce.com">Account</type>
+	            <Name xmlns=""></Name>
+	            <RecordTypeId xmlns=""></RecordTypeId>
+	            <Talent_Ownership__c xmlns=""></Talent_Ownership__c>
+	            <ShippingStreet xmlns=""></ShippingStreet>
+	            <ShippingCity xmlns=""></ShippingCity>
+	            <ShippingState xmlns=""></ShippingState>
+	            <ShippingCountry xmlns=""></ShippingCountry>
+	            <ShippingPostalCode xmlns=""></ShippingPostalCode>
+	            <Skills__c xmlns=""></Skills__c>
+	            <Annual_Services_Budget__c xmlns=""></Annual_Services_Budget__c>
+				<Annual_Staffing_Spend__c xmlns=""></Annual_Staffing_Spend__c>
+				<Client_Business_Pain__c xmlns=""></Client_Business_Pain__c>
+				<Competitive_landscape__c xmlns=""></Competitive_landscape__c>
+				<Divisions__c xmlns=""></Divisions__c>
+				<End_Customers__c xmlns=""></End_Customers__c>
+				<Export_Controls_compliance_required__c xmlns=""></Export_Controls_compliance_required__c>
+				<MSP_Provider__c xmlns=""></MSP_Provider__c>
+				<No_of_Open_Positions__c xmlns=""></No_of_Open_Positions__c>
+				<No_of_Reqs__c xmlns=""></No_of_Reqs__c>
+				<OFCCP_Compliant__c xmlns="">false</OFCCP_Compliant__c>
+				<Phone xmlns=""></Phone>
+				<Product_Skill_Set_Details__c xmlns=""></Product_Skill_Set_Details__c>
+				<Staffing_Services_Models_Used__c xmlns=""></Staffing_Services_Models_Used__c>
+				<Top_Business_Initiatives__c xmlns=""></Top_Business_Initiatives__c>
+				<Upcoming_Client_Projects__c xmlns=""></Upcoming_Client_Projects__c>
+				<Value_Proposition__c xmlns=""></Value_Proposition__c>
+				<VMS_Technology__c xmlns=""></VMS_Technology__c>
+				<Website xmlns=""></Website>
+				<WMS_Provider__c xmlns=""></WMS_Provider__c>
+				<Do_Not_Contact__c  xmlns=""></Do_Not_Contact__c>
+				<Do_Not_Contact_Reason__c xmlns=""></Do_Not_Contact_Reason__c>
+				<Rules_of_Engagement__c xmlns=""></Rules_of_Engagement__c>
+	
+          </sObjects>
+      </create>
+   </Body>
+</Envelope>

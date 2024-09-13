@@ -1,0 +1,34 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+
+ 	xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+
+<Header>
+<SessionHeader xmlns="urn:partner.soap.sforce.com">
+<sessionId></sessionId>
+</SessionHeader>
+</Header>
+<Body>
+<create xmlns="urn:partner.soap.sforce.com">
+<sObjects>
+ <type xmlns="urn:sobject.partner.soap.sforce.com">Talent_Work_History__c</type>
+                   <Talent__c xmlns=""></Talent__c>
+                   <SourceCompany__c xmlns=""></SourceCompany__c>
+                   <SourceCompanyId__c xmlns=""></SourceCompanyId__c>
+                   <Bill_rate__c xmlns=""></Bill_rate__c>
+                   <Currency_Type__c xmlns=""></Currency_Type__c>
+                   <Start_Date__c xmlns=""></Start_Date__c>
+                   <End_Date__c xmlns=""></End_Date__c>
+                   <SourceId__c  xmlns=""></SourceId__c >
+                  <Job_Title__c xmlns=""></Job_Title__c>
+                  <ESFId__c xmlns=""></ESFId__c>
+                  <Finish_Reason__c xmlns=""></Finish_Reason__c>
+                  <Main_Skill__c xmlns=""></Main_Skill__c>
+                  <Finish_Code__c xmlns=""></Finish_Code__c>
+                  <DivisionCode__c xmlns=""></DivisionCode__c>
+                  <DivisionName__c xmlns=""></DivisionName__c>
+                  <Pay_Rate__c xmlns=""></Pay_Rate__c>
+                   
+</sObjects>
+</create>
+</Body>
+</Envelope>

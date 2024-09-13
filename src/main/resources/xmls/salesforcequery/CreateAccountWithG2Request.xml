@@ -1,0 +1,37 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Account</type>
+            <Name xmlns=""></Name>
+            <RecordTypeId xmlns=""></RecordTypeId>
+            <Talent_Ownership__c xmlns=""></Talent_Ownership__c>
+            <ShippingStreet xmlns=""></ShippingStreet>
+            <ShippingCity xmlns=""></ShippingCity>
+            <ShippingState xmlns=""></ShippingState>
+            <ShippingCountry xmlns=""></ShippingCountry>
+            <ShippingPostalCode xmlns=""></ShippingPostalCode>
+            <Skills__c xmlns=""></Skills__c>
+            <Talent_Preference_Internal__c xmlns=""></Talent_Preference_Internal__c>
+            <Desired_Currency__c xmlns=""></Desired_Currency__c>
+            <Desired_Rate__c xmlns=""></Desired_Rate__c>
+            <Desired_Rate_Frequency__c xmlns=""></Desired_Rate_Frequency__c>
+            <Desired_Bonus__c xmlns=""></Desired_Bonus__c>
+            <Desired_Additional_Compensation__c xmlns=""></Desired_Additional_Compensation__c>
+            <Desired_Schedule__c xmlns=""></Desired_Schedule__c>
+            <Desired_Placement_type__c xmlns=""></Desired_Placement_type__c>
+            <Goals_and_Interests__c xmlns=""></Goals_and_Interests__c>
+            <Skill_Comments__c xmlns=""></Skill_Comments__c>
+            <Talent_Overview__c xmlns=""></Talent_Overview__c>
+            <Willing_to_Relocate__c xmlns=""></Willing_to_Relocate__c>
+            <Peoplesoft_ID__c xmlns=""></Peoplesoft_ID__c>
+            
+          </sObjects>
+      </create>
+   </Body>
+</Envelope>

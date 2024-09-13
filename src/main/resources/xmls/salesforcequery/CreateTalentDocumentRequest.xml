@@ -1,0 +1,22 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Talent_Document__c</type>
+            <Talent__c></Talent__c>
+            <Document_Name__c></Document_Name__c>
+            <Cloud_Storage__c>true</Cloud_Storage__c>
+            <Delete_Original__c>true</Delete_Original__c>
+            <Document_Conversion__c>true</Document_Conversion__c>
+            <Indexing_Required__c>true</Indexing_Required__c>
+            <Default_Document__c>true</Default_Document__c> 
+            <Document_Type__c>Resume</Document_Type__c>           
+          </sObjects>
+      </create>
+   </Body>
+</Envelope>

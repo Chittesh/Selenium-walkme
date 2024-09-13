@@ -1,0 +1,28 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+	       
+	            <type xmlns="urn:sobject.partner.soap.sforce.com">Account</type>
+	            <Name xmlns=""></Name>
+	            <RecordTypeId xmlns=""></RecordTypeId>
+	            <Talent_Ownership__c xmlns=""></Talent_Ownership__c>
+	            <ShippingStreet xmlns=""></ShippingStreet>
+	            <ShippingCity xmlns=""></ShippingCity>
+	            <ShippingState xmlns=""></ShippingState>
+	            <ShippingCountry xmlns=""></ShippingCountry>
+	            <ShippingPostalCode xmlns=""></ShippingPostalCode>
+	            <Skills__c xmlns=""></Skills__c>
+	            <Talent_Preference_Internal__c xmlns=""></Talent_Preference_Internal__c>
+	             <Peoplesoft_ID__c xmlns=""></Peoplesoft_ID__c>
+	             <Talent_Current_Employer_Text__c xmlns=""></Talent_Current_Employer_Text__c>
+	             
+	         </sObjects>
+      </create>
+   </Body>
+</Envelope>

@@ -1,0 +1,19 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<update xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Opportunity</type>
+				<Id xmlns=""></Id>
+				<Immediate_Start__c xmlns=""></Immediate_Start__c>
+				<Req_Work_Remote__c xmlns=""></Req_Work_Remote__c>
+				<EnterpriseReqSkills__c xmlns=""></EnterpriseReqSkills__c>
+			</sObjects>
+		</update>
+	</Body>
+</Envelope>

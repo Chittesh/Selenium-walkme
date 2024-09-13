@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+	            <type xmlns="urn:sobject.partner.soap.sforce.com">Opportunity</type>
+				<Name xmlns="">AutoActalentServicesOppty999</Name>
+				<RecordTypeId xmlns=""></RecordTypeId>
+				 <CloseDate xmlns=""></CloseDate> 
+				<AccountId xmlns=""></AccountId>
+				<StageName xmlns=""></StageName>
+<!-- 				<Req_Qualifying_Stage__c xmlns=""></Req_Qualifying_Stage__c> -->
+				<Impacted_Regions__c xmlns=""></Impacted_Regions__c>
+				<Is_this_a_field_bubble_up__c xmlns=""></Is_this_a_field_bubble_up__c>
+				<Vertical__c xmlns=""></Vertical__c>
+				<Organization_Office__c xmlns=""></Organization_Office__c>
+				<Sales_Organization__c xmlns=""></Sales_Organization__c>
+				<Product_Division__c xmlns=""></Product_Division__c>
+				
+				
+				<Client_Relationship__c  xmlns=""></Client_Relationship__c>
+				<Access_To_Funds__c	 xmlns=""></Access_To_Funds__c	>
+				<Description xmlns=""></Description>
+				<Delivery_Readiness__c xmlns=""></Delivery_Readiness__c>
+				<Global_Services_Opportunity_Type__c xmlns=""></Global_Services_Opportunity_Type__c>
+			<Customer_Need_Assessment__c xmlns=""></Customer_Need_Assessment__c>
+				<Level_of_Scope_Definition__c xmlns=""></Level_of_Scope_Definition__c>
+				<Services_Capabilities_Alignment__c xmlns=""></Services_Capabilities_Alignment__c>
+				
+			</sObjects>
+		</create>
+	</Body>
+</Envelope>

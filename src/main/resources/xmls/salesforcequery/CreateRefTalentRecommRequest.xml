@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Talent_Recommendation__c</type>
+            <Talent_Contact__c xmlns=""></Talent_Contact__c>
+            <Mobile_Phone__c xmlns=""></Mobile_Phone__c>
+            <Organization_Name__c xmlns=""></Organization_Name__c>
+            <Reference_Check_Completed__c xmlns=""></Reference_Check_Completed__c>
+            <Reference_Job_Title__c xmlns=""></Reference_Job_Title__c>
+            <Talent_Job_Duties__c xmlns=""></Talent_Job_Duties__c>
+            <Reference_Type__c xmlns=""></Reference_Type__c>
+            <RecordTypeId xmlns=""></RecordTypeId>
+            <Recommendation_From__c xmlns=""></Recommendation_From__c>
+         </sObjects>
+      </create>
+   </Body>
+</Envelope>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<create xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Opportunity</type>
+				<Name xmlns="">test</Name>
+				<AccountId xmlns=""></AccountId>
+				<RecordTypeId xmlns=""></RecordTypeId>
+				<Currency__c xmlns=""></Currency__c>
+				<CloseDate xmlns=""></CloseDate>
+				<Req_External_Job_Description__c xmlns=""></Req_External_Job_Description__c>
+				<Req_Hiring_Manager__c xmlns=""></Req_Hiring_Manager__c>
+				<Req_Job_Title__c xmlns=""></Req_Job_Title__c>
+				<Req_Product__c xmlns=""></Req_Product__c>
+				<OpCo__c xmlns=""></OpCo__c>
+				<Req_Client_working_on_Req__c xlms=""></Req_Client_working_on_Req__c>
+				<Req_Worksite_City__c xmlns=""></Req_Worksite_City__c>
+				<Req_Total_Positions__c xmlns=""></Req_Total_Positions__c>
+				<Req_Division__c xmlns=""></Req_Division__c>
+				<Req_Worksite_Country__c xmlns=""></Req_Worksite_Country__c>
+				<Req_Worksite_State__c xmlns=""></Req_Worksite_State__c>
+				<Req_Worksite_Street__c xmlns=""></Req_Worksite_Street__c>
+				<Req_Worksite_Postal_Code__c xmlns=""></Req_Worksite_Postal_Code__c>
+				<Req_Additional_Information__c xmlns=""></Req_Additional_Information__c>
+				<Req_Qualification__c xmlns=""></Req_Qualification__c>
+				<Req_Background_Check_Required__c xmlns=""></Req_Background_Check_Required__c>
+				<Req_Bill_Rate_Max__c xmlns=""></Req_Bill_Rate_Max__c>
+				<Req_Bill_Rate_Min__c xmlns=""></Req_Bill_Rate_Min__c>
+				<Req_Bonus__c xmlns=""></Req_Bonus__c>
+				<Req_Business_Challenge__c xmlns=""></Req_Business_Challenge__c>
+				<Req_Can_Use_Approved_Sub_Vendor__c xmlns=""></Req_Can_Use_Approved_Sub_Vendor__c>
+				<Req_End_Client__c xlmns=""></Req_End_Client__c>
+				<Req_Competition_Info__c xmlns=""></Req_Competition_Info__c>
+				<Req_Compliance__c xmlns=""></Req_Compliance__c>
+				<Req_Job_Description__c xmlns=""></Req_Job_Description__c>
+				<Req_Draft_Reason__c xmlns=""></Req_Draft_Reason__c>
+				<Req_Drug_Test_Required__c xmlns=""></Req_Drug_Test_Required__c>
+				<Req_Duration__c xmlns=""></Req_Duration__c>
+				<Req_Duration_Unit__c xmlns=""></Req_Duration_Unit__c>
+				<Req_EVP__c xmlns=""></Req_EVP__c>
+				<Req_Exclusive__c xmlns=""></Req_Exclusive__c>
+				<Req_Job_Level__c xmlns=""></Req_Job_Level__c>
+				<Immediate_Start__c xmlns=""></Immediate_Start__c>
+				<Req_Government__c xmlns=""></Req_Government__c>
+				<Req_Impact_to_Internal_External_Customer__c xmlns=""></Req_Impact_to_Internal_External_Customer__c>
+				<Req_Interview_Information__c xmlns=""></Req_Interview_Information__c>
+				<OT_Multiplier__c xmlns=""></OT_Multiplier__c>
+				<Req_Pay_Rate_Max__c xmlns=""></Req_Pay_Rate_Max__c>
+				<Req_Pay_Rate_Min__c xmlns=""></Req_Pay_Rate_Min__c>
+				<Req_Red_Zone__c xmlns=""></Req_Red_Zone__c>
+				<EnterpriseReqSkills__c xmlns=""></EnterpriseReqSkills__c>
+				<Req_Skill_Details__c xmlns=""></Req_Skill_Details__c>
+				<Req_Standard_Burden__c xmlns=""></Req_Standard_Burden__c>
+				<Req_Internal_External_Customer__c xmlns=""></Req_Internal_External_Customer__c>
+				<Req_Work_Environment__c xmlns=""></Req_Work_Environment__c>
+				<Req_Work_Remote__c xmlns=""></Req_Work_Remote__c>
+				<REQ_Opportunity_driven_mostly_by_LOB__c xmlns=""></REQ_Opportunity_driven_mostly_by_LOB__c>
+				<Req_Approval_Process__c xmlns=""></Req_Approval_Process__c>
+				<Organization_Office__c xmlns=""></Organization_Office__c>
+				<StageName xmlns=""></StageName>
+				<Req_Date_Client_Opened_Position__c xmlns=""></Req_Date_Client_Opened_Position__c>
+				<Req_Interview_Date__c xmlns=""></Req_Interview_Date__c>
+				<Req_Project_Stage_Lifecycle_Info__c xmlns=""></Req_Project_Stage_Lifecycle_Info__c>
+				<Start_Date__c xmlns=""></Start_Date__c>
+				<Legacy_Product__c xmlns=""></Legacy_Product__c>
+				<Req_Why_Position_Open_Details__c xmlns=""></Req_Why_Position_Open_Details__c>
+				<Req_Rate_Frequency__c xmlns=""></Req_Rate_Frequency__c>
+				<Req_Fee_Percent__c xmlns=""></Req_Fee_Percent__c>
+				<Req_Flat_Fee__c xmlns=""></Req_Flat_Fee__c>
+				<Req_Secondary_Delivery_Office__c xlms=""></Req_Secondary_Delivery_Office__c>
+				<Req_Delivery_Type__c xlmns=""></Req_Delivery_Type__c>
+				<Req_Minimum_Education_Required__c xlmns=""></Req_Minimum_Education_Required__c>
+				<Req_Performance_Expectations__c xlmns=""></Req_Performance_Expectations__c>
+				<Req_Service_Product_Offering__c xlmns=""></Req_Service_Product_Offering__c>
+				<Req_Salary_Max__c xlmns=""></Req_Salary_Max__c>
+				<Req_Salary_Min__c xlmns=""></Req_Salary_Min__c>
+				<Req_Other_Compensations__c xlmns=""></Req_Other_Compensations__c>
+				<Req_OFCCP_Required__c xlmns=""></Req_OFCCP_Required__c>
+				<Req_TGS_Requirement__c xmlns=""></Req_TGS_Requirement__c>
+				<Product__c xmlns=""></Product__c>
+				<Internal_Hire__c xmlns=""></Internal_Hire__c>
+				<Practice_Engagement__c xmlns=""></Practice_Engagement__c>
+				<GlobalServices_Location__c xmlns=""></GlobalServices_Location__c>
+				<Employment_Alignment__c xmlns=""></Employment_Alignment__c>
+				<Final_Decision_Maker__c xmlns=""></Final_Decision_Maker__c>
+				<Is_International_Travel_Required__c> xmlns=""></Is_International_Travel_Required__c>
+
+			</sObjects>
+		</create>
+	</Body>
+</Envelope>
+
+
+	

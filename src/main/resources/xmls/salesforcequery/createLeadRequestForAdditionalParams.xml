@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Lead</type>
+             <!-- <Capability_Alignment__c xmlns=""></Capability_Alignment__c> -->
+            <RecordTypeId xmlns=""></RecordTypeId>
+              <Company xmlns=""></Company>
+             <Data_Source__c xmlns=""></Data_Source__c>
+        	 <Description xmlns=""></Description>
+         	 <Division__c xmlns=""></Division__c>
+            <Email xmlns=""></Email>
+             <FirstName xmlns=""></FirstName>
+            <LastName xmlns=""></LastName>
+            <!-- <Lead_Owner_Company_Code__c xmlns=""></Lead_Owner_Company_Code__c>
+     		<Lead_Owner_Company_Name__c xmlns=""></Lead_Owner_Company_Name__c> -->
+     		<LeadSource xmlns=""></LeadSource>
+	     
+			<Phone xmlns=""></Phone>
+			<PostalCode xmlns=""></PostalCode>
+			<Segment__c xmlns=""></Segment__c>
+			<State umsns=""></State>
+			<Status xmlns=""></Status>
+			<Title xmlns=""></Title>   
+			<Preferred_Contact_Method__c xmlns=""></Preferred_Contact_Method__c> 
+			<Urgency__c xmlns=""></Urgency__c> 
+			<Comments__c xmlns=""></Comments__c> 
+			<Inquiry_Type__c xmlns=""></Inquiry_Type__c> 
+			<Campaign_Clicked_Count__c xmlns=""></Campaign_Clicked_Count__c> 
+			<Campaign_Opened_Count__c xmlns=""></Campaign_Opened_Count__c>
+			<Do_they_use_staffing_or_services__c></Do_they_use_staffing_or_services__c>
+			<Account_Manager__c></Account_Manager__c>
+		</sObjects>
+      </create>
+   </Body>
+</Envelope>

@@ -1,0 +1,23 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<create xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Job_Posting_Channel_Details__c</type>
+				<Board_Expiration_Date__c xmlns="">2022-06-01T10:35:53.000Z</Board_Expiration_Date__c>
+				<Board_Id__c xmlns="">80133</Board_Id__c>
+				<Board_Name__c xmlns="">CareerCircle</Board_Name__c>
+				<Board_Status__c xmlns="">queued</Board_Status__c>
+				<Job_Posting_Id__c xmlns="">a1y55000003fQVYAA2</Job_Posting_Id__c>
+				<Next_Schedule_Flag__c xmlns="">true</Next_Schedule_Flag__c>
+				<Board_Posting_Id__c xmlns=""></Board_Posting_Id__c>
+				<Next_Scheduled_Run__c xmlns="">2022-06-21T13:35:53.000Z</Next_Scheduled_Run__c>
+				<Attempts__c xmlns="">0.0</Attempts__c>
+			</sObjects>
+		</create>
+	</Body>
+</Envelope>

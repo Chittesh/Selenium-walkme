@@ -1,0 +1,24 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+	       
+	            <type xmlns="urn:sobject.partner.soap.sforce.com">Burden__c</type>
+	            <BurdenCategory__c xmlns=""></BurdenCategory__c>
+				<Burden_Description__c xmlns=""></Burden_Description__c>
+				<Burden_Source__c xmlns=""></Burden_Source__c>
+				<Burden_Type_Description__c xmlns=""></Burden_Type_Description__c>
+				<Burden_Type__c xmlns=""></Burden_Type__c>
+				<Burden__c xmlns=""></Burden__c>
+				<Employee_Status_Form__c xmlns=""></Employee_Status_Form__c>
+				<Global_Services_Division__c xmlns=""></Global_Services_Division__c>
+	             
+	         </sObjects>
+      </create>
+   </Body>
+</Envelope>

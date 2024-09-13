@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Contact</type>
+            <FirstName xmlns=""></FirstName>
+            <LastName xmlns=""></LastName>
+            <MailingStreet xmlns=""></MailingStreet>
+            <MailingCity xmlns=""></MailingCity>
+            <MailingState xmlns=""></MailingState>
+            <MailingPostalCode xmlns=""></MailingPostalCode>
+            <MailingCountry xmlns=""></MailingCountry>
+            <MobilePhone xmlns=""></MobilePhone>
+            <OtherPhone xmlns=""></OtherPhone>
+            <HomePhone xmlns=""></HomePhone>
+            <Email xmlns=""></Email>
+            <Other_Email__c xmlns=""></Other_Email__c>
+            <Work_Email__c xmlns=""></Work_Email__c>
+            <LinkedIn_URL__c xmlns=""></LinkedIn_URL__c>
+            <Title xmlns=""></Title>
+            <Preferred_Name__c xmlns=""></Preferred_Name__c>
+            <Website_URL__c xmlns=""></Website_URL__c>
+            <Preferred_Email__c xmlns=""></Preferred_Email__c>
+            <Preferred_Phone__c xmlns=""></Preferred_Phone__c>
+            <Suffix xmlns=""></Suffix>
+            <AccountId xmlns=""></AccountId>
+            <RecordTypeId xmlns=""></RecordTypeId>
+            <AssistantName xmlns=""></AssistantName>
+			<AssistantPhone xmlns=""></AssistantPhone>
+			<Best_Way_to_Approach__c xmlns=""></Best_Way_to_Approach__c>
+			<Business_Pains__c xmlns=""></Business_Pains__c>
+			<Campaign_Code__c xmlns=""></Campaign_Code__c>
+			<Category__c xmlns=""></Category__c>
+			<Competitive_Landscape__c xmlns=""></Competitive_Landscape__c>
+			<Contact_Location__c xmlns=""></Contact_Location__c>
+			<Department xmlns=""></Department>
+			<Department_Hiring_Process__c xmlns=""></Department_Hiring_Process__c>
+			<Description xmlns=""></Description>
+			<Divisions__c xmlns=""></Divisions__c>
+			<Drivers_For_Using_Staffing_Services__c xmlns=""></Drivers_For_Using_Staffing_Services__c>
+			<Fax xmlns=""></Fax>
+			<OtherCity xmlns=""></OtherCity>
+			<OtherPostalCode xmlns=""></OtherPostalCode>
+			<OtherState xmlns=""></OtherState>
+			<OtherStreet xmlns=""></OtherStreet>
+			<Product_Skill_Set_Details__c xmlns=""></Product_Skill_Set_Details__c>
+			<Role_in_decision_making__c xmlns=""></Role_in_decision_making__c> 
+			<RWS_Candidate_URL__c xmlns=""></RWS_Candidate_URL__c>
+			<Staffing_Services_Models_Used__c xmlns=""></Staffing_Services_Models_Used__c>
+			<Technologies_Supported_Used__c xmlns=""></Technologies_Supported_Used__c>
+			<Value_Proposition_Differentiators__c xmlns=""></Value_Proposition_Differentiators__c>
+			<ReportsToId xmlns=""></ReportsToId>
+				
+         </sObjects>
+      </create>
+   </Body>
+</Envelope>

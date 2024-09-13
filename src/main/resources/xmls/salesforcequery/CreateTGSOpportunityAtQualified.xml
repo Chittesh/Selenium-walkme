@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<create xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Opportunity</type>
+				<Name xmlns="">TestTGSOpportunity</Name>
+				<CloseDate xmlns=""></CloseDate>
+				<AccountId xmlns=""></AccountId>
+				<StageName xmlns=""></StageName>
+				<RecordTypeId xmlns=""></RecordTypeId>
+				<Segment__c xmlns=""></Segment__c>
+				<Organization_Office__c	 xmlns=""></Organization_Office__c>
+				<Sales_Organization__c xmlns=""></Sales_Organization__c>
+				<Regional_Director__c xmlns=""></Regional_Director__c>
+				<Practice_Engagement__c xmlns=""></Practice_Engagement__c>
+				<Primary_Service_Type__c xmlns=""></Primary_Service_Type__c>
+				<Describe_Customer_Pain__c xmlns=""></Describe_Customer_Pain__c>
+				<Channel_Partners__c xmlns=""></Channel_Partners__c>
+				<Validate_Total_Revenue_Life_of_Deal__c xmlns=""></Validate_Total_Revenue_Life_of_Deal__c>
+				<DeliveryModel__c xmlns=""></DeliveryModel__c>
+				<Client_Relationship__c xmlns=""></Client_Relationship__c>
+				<Global_Services_Opportunity_Type__c xmlns=""></Global_Services_Opportunity_Type__c>
+				<Response_Type__c xmlns=""></Response_Type__c>
+				<Vertical__c xmlns=""></Vertical__c>
+				<How_will_we_win__c xmlns=""></How_will_we_win__c>
+				<Is_credit_approved__c xmlns=""></Is_credit_approved__c>
+				<NextStep xmlns=""></NextStep>
+				<Originating_Opportunity__c xmlns=""></Originating_Opportunity__c>
+				<Aligned_SE__c xmlns=""></Aligned_SE__c> 
+				<Deal_Owner__c xmlns=""></Deal_Owner__c>
+				</sObjects>
+
+		</create>
+	</Body>
+</Envelope>

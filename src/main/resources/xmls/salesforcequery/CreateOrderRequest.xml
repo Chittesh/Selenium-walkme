@@ -1,0 +1,24 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+         
+            <type xmlns="urn:sobject.partner.soap.sforce.com">Order</type>
+            <RecordTypeId xmlns=""></RecordTypeId>
+            <AccountId xmlns=""></AccountId>
+            <Status xmlns=""></Status>
+            <OpportunityId xmlns=""></OpportunityId>
+            <ShipToContactId xmlns=""></ShipToContactId>
+            <EffectiveDate xmlns=""></EffectiveDate>
+            <Rate_Frequency__c xmlns=""></Rate_Frequency__c>
+            <Has_Application__c xmlns="">false</Has_Application__c>
+            
+          </sObjects>
+      </create>
+   </Body>
+</Envelope>

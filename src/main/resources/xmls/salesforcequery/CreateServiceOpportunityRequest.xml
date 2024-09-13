@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+
+	xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+
+	<Header>
+
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+
+			<sessionId></sessionId>
+
+		</SessionHeader>
+
+	</Header>
+
+	<Body>
+
+		<create xmlns="urn:partner.soap.sforce.com">
+
+			<sObjects>
+
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Opportunity</type>
+
+				<Name xmlns="">test</Name>
+
+				<CloseDate xmlns=""></CloseDate>
+
+				<StageName xmlns=""></StageName>
+
+				<Req_Worksite_City__c xmlns=""></Req_Worksite_City__c>
+
+				<Req_Worksite_Country__c xmlns=""></Req_Worksite_Country__c>
+
+				<Req_Worksite_Street__c xmlns=""></Req_Worksite_Street__c>
+
+				<Req_Worksite_Postal_Code__c xmlns=""></Req_Worksite_Postal_Code__c>
+
+				<Req_Worksite_State__c xmlns=""></Req_Worksite_State__c>
+
+				<AccountId xmlns=""></AccountId>
+
+				<OpCo__c xmlns=""></OpCo__c>
+
+				<RecordTypeId xmlns=""></RecordTypeId>
+
+				<Segment__c xmlns=""></Segment__c>
+
+				<Organization_Office__c xmlns=""></Organization_Office__c>
+
+				<Sales_Organization__c xmlns=""></Sales_Organization__c>
+
+			</sObjects>
+
+		</create>
+
+	</Body>
+
+</Envelope>

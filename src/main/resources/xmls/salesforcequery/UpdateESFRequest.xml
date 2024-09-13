@@ -1,0 +1,53 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<update xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Employee_Status_Form__c</type>
+				<Id xmlns=""></Id>
+				<Stage__c xmlns=""></Stage__c>
+				<Competency_Years_of_Experience__c xmlns=""></Competency_Years_of_Experience__c>
+				<Confirm_Primary_E_mail__c xmlns=""></Confirm_Primary_E_mail__c>
+				<Confirm_Primary_Phone_Number__c xmlns=""></Confirm_Primary_Phone_Number__c>
+				<E_mail_Type__c xmlns=""></E_mail_Type__c>
+				<Employment_Type__c xmlns=""></Employment_Type__c>
+				<End_Date__c xmlns=""></End_Date__c>
+<!-- 				<Global_Services_Division_text__c xmlns=""></Global_Services_Division_text__c> -->
+<!-- 				<Job_Code__c xmlns=""></Job_Code__c> -->
+				<Pay_Rate_Regular__c xmlns=""></Pay_Rate_Regular__c>
+                <Pay_Rate_Overtime__c xmlns=""></Pay_Rate_Overtime__c>
+				<Phone_Type__c xmlns=""></Phone_Type__c>
+<!-- 				<Practice__c xmlns=""></Practice__c> -->
+				<Primary_Competency_Skillset__c xmlns=""></Primary_Competency_Skillset__c>
+				<Primary_Recruiter_Name__c xmlns=""></Primary_Recruiter_Name__c>
+				<Primary_Recruiter_Spread__c xmlns=""></Primary_Recruiter_Spread__c>
+				<Primary_Recruiter_Spread_Type__c xmlns=""></Primary_Recruiter_Spread_Type__c>
+				<Primary_Sales_Spread__c xmlns=""></Primary_Sales_Spread__c>
+                <Primary_Sales_Spread_Type__c xmlns=""></Primary_Sales_Spread_Type__c>
+				<Primary_Sales_Name__c xmlns=""></Primary_Sales_Name__c>
+				<Recruiting_Office__c xmlns=""></Recruiting_Office__c>
+				<Remote_Temporarily__c xmlns=""></Remote_Temporarily__c>
+				<Remote_Worker__c xmlns=""></Remote_Worker__c>
+				<Start_Date__c xmlns=""></Start_Date__c>
+				<Verify_Hire_Status__c xmlns=""></Verify_Hire_Status__c>
+				<Worksite_Street__c xmlns=""></Worksite_Street__c>
+				<Worksite_Street_2__c xmlns=""></Worksite_Street_2__c>
+				<Worksite_City__c xmlns=""></Worksite_City__c>
+				<Worksite_State_picklist__c xmlns=""></Worksite_State_picklist__c>
+				<Worksite_Postal_Code__c xmlns=""></Worksite_Postal_Code__c>
+				<Position_Type__c xmlns=""></Position_Type__c>
+				<NLO_Owner__c xmlns=""></NLO_Owner__c>
+
+<!-- 				<Delivery_Owner__c xmlns=""></Delivery_Owner__c> -->
+<!-- 				<Bill_Rate_Regular__c xmlns=""></Bill_Rate_Regular__c> -->
+
+			</sObjects>
+		</update>
+	</Body>
+</Envelope>

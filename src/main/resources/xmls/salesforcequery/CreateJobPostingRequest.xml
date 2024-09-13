@@ -1,0 +1,26 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+   <Header>
+      <SessionHeader xmlns="urn:partner.soap.sforce.com">
+         <sessionId></sessionId>
+      </SessionHeader>
+   </Header>
+   <Body>
+      <create xmlns="urn:partner.soap.sforce.com">
+         <sObjects>
+	       
+	            <type xmlns="urn:sobject.partner.soap.sforce.com">Job_Posting__c</type>
+	             <RecordTypeId xmlns=""></RecordTypeId>
+	             <Opportunity__c xmlns=""></Opportunity__c>
+	             <Private_Flag__c xmlns="">false</Private_Flag__c>
+	             <Source_System_id__c xmlns=""></Source_System_id__c>
+	             <Source_System_Name__c xmlns=""></Source_System_Name__c>
+	             <Applications_Count__c xmlns=""></Applications_Count__c>
+	             <BROADBEAN_ACCOUNT_ID__c xmlns=""></BROADBEAN_ACCOUNT_ID__c>
+	             <Delete_Retry_Flag__c xmlns=""></Delete_Retry_Flag__c>
+	             <Invitations_Count__c xmlns=""></Invitations_Count__c>
+	             <Is_Active__c xmlns="">true</Is_Active__c>
+	             <OFCCP_Flag__c xmlns="">false</OFCCP_Flag__c>
+	        </sObjects>
+      </create>
+   </Body>
+</Envelope>

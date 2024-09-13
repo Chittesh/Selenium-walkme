@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ESF-Regression" parallel="tests" thread-count="3">
+
+	<parameter name="runLocation" value="docker" />
+	<test name="verifyEsfE2EWorkFlow" parallel="methods"
+		thread-count="4">
+			<parameter name="role" value="TEK_SD1_TEST" />
+		<classes>
+			<class name="com.salesforce.esf.ESFWorkFlowTest">
+				<methods>
+					<include name="verifyEsfE2EWorkFlow" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

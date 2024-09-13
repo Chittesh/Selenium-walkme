@@ -1,0 +1,30 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"
+       xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+       <Header>
+             <SessionHeader xmlns="urn:partner.soap.sforce.com">
+                    <sessionId></sessionId>
+             </SessionHeader>
+       </Header>
+       <Body>
+             <create xmlns="urn:partner.soap.sforce.com">
+                    <sObjects>
+                           <type xmlns="urn:sobject.partner.soap.sforce.com">Event</type>
+                           <WhatId xmlns=""></WhatId>
+                           <WhoId xmlns=""></WhoId>
+                           <Subject xmlns=""></Subject>
+                           <Type xmlns=""></Type>
+                           <StartDateTime xmlns=""> </StartDateTime>
+                           <EndDateTime xmlns=""></EndDateTime>
+                           <OwnerId xmlns=""></OwnerId>
+                           <Description xmlns=""></Description>
+                           <Activity_Type__c xmlns=""></Activity_Type__c>
+                           <EventSubtype xmlns=""></EventSubtype>
+                           <Submittal_Interviewers__c xmlns=""></Submittal_Interviewers__c>
+                           <Interview_Type__c xmlns=""></Interview_Type__c>
+                           <Interview_Status__c xmlns=""></Interview_Status__c>
+                           <ActivityDateTime xmlns=""></ActivityDateTime>
+                           <Pre_Meeting_Notes__c xmlns=""></Pre_Meeting_Notes__c>
+                    </sObjects>
+             </create>
+       </Body>
+</Envelope>

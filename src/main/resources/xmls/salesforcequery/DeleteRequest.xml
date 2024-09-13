@@ -1,0 +1,16 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+		<CallOptions xmlns="urn:partner.soap.sforce.com">
+			<client></client>
+			<defaultNamespace />
+		</CallOptions>
+	</Header>
+	<Body>
+		<delete xmlns="urn:partner.soap.sforce.com">
+			<ids></ids>
+		</delete>
+	</Body>
+</Envelope>

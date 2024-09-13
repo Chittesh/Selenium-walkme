@@ -1,0 +1,27 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<SessionHeader xmlns="urn:partner.soap.sforce.com">
+			<sessionId></sessionId>
+		</SessionHeader>
+	</Header>
+	<Body>
+		<create xmlns="urn:partner.soap.sforce.com">
+			<sObjects>
+				<type xmlns="urn:sobject.partner.soap.sforce.com">Virtual_G2__c</type>
+				<Availability__c xmlns=""></Availability__c>
+				<Communication_Preferences__c xmlns=""></Communication_Preferences__c>
+				<Ecv_Id__c xmlns=""></Ecv_Id__c>
+				<Education__c xmlns=""></Education__c>
+				<High_School_Diploma__c xmlns=""></High_School_Diploma__c>
+				<Hourly_Rate__c xmlns=""></Hourly_Rate__c>
+				<Job_Posting__c xmlns=""></Job_Posting__c>
+				<Onsite_Preference__c xmlns=""></Onsite_Preference__c>
+				<High_School_Diploma__c xmlns=""></High_School_Diploma__c>
+				<Shift__c xmlns=""></Shift__c>
+				<Skills__c xmlns=""></Skills__c>
+				<Word_Per_Minute__c xmlns=""></Word_Per_Minute__c>
+				<Work_Experience__c xmlns=""></Work_Experience__c>
+			</sObjects>
+		</create>
+	</Body>
+</Envelope>
